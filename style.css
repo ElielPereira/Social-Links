@@ -1,0 +1,75 @@
+:root {
+    --body-bg-color: #FAF7FD;
+    --purple: #BB99DD;
+  }
+
+body{
+    background-color: var(--body-bg-color);
+}
+
+main{
+    color: var(--purple);
+    font-family: "Poppins", sans-serif;
+    width: 330px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto auto;
+    align-content: center;
+}
+
+.img-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.img-perfil p{
+    display: flex;
+    justify-content: center;
+}
+
+.img-perfil div{
+    border: 1px solid var(--purple);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-perfil div img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    padding: 2px;
+}
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.links div{
+    height: 49px;
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--purple);
+    align-items: center;
+}
+
+.links-icons{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 50px auto;
+    flex-direction: row;
+}
+
+.links-icons img{
+    height: 24px;
+    width: 24px;
+}
